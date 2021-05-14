@@ -54,7 +54,7 @@
 # | x(i,j) ∈ {0,1}   (i = 1....n, j = 1...n, i ≠ j)
 # |
 
-using JuMP, Cbc, ElectronDisplay
+using JuMP, Cbc
 
 include("src.jl")
 
@@ -103,4 +103,4 @@ c = distances(α,β)
 optimize!(pcv)
 
 # validando o status da solução e gerando o relatório de saída
-electrondisplay(outputmodel(pcv, α, β))
+outputmodel(pcv, α, β)
