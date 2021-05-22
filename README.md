@@ -1,5 +1,5 @@
 # Logistics-models
-Modelos matemáticos para problemas de logística.
+Modelos matemáticos para problemas de logística e distribuição.
 
 ## Modelos:
 - Modelo do transporte
