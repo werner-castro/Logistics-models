@@ -167,6 +167,5 @@ E = [(i,j) for i in N, j in N if j > 0 && i ≠ j]
 # otimizando
 optimize!(cvrpwt)
 
-using ElectronDisplay
 # gerando o relatório de saída
 report(cvrpwt, value.(x), value.(b), itime, ftime, vx, vy, custo)
