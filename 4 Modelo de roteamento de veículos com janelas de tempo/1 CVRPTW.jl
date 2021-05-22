@@ -2,7 +2,7 @@
 
 # formulaçao matemática proposta por: Larsen (1999) e Ombuki et al. (2006)
 
-# Instâmcia retirada do livro: Arenales, do mesmo problema do reteamento de veículos.
+# Instância retirada do livro: Arenales, do mesmo problema do reteamento de veículos.
 
 # implementação da modelagem: Carlos Werner Ribeiro de Castro
 
