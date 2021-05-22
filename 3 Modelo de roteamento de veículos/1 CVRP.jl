@@ -123,7 +123,7 @@ if termination_status(cvrp) == MOI.OPTIMAL
     relatorio(cvrp, obj, rota, m, n)
 
     # gráfico das rotas
-    pltour(coordx, coordy, rota, animated = 1)
+    pltour(coordx, coordy, rota, animated = 2)
 elseif termination_status(cvrp) == MOI.TIME_LIMIT && has_values(cvrp)
     println("Solução sub-ótima encontrada !")
 
@@ -135,7 +135,7 @@ elseif termination_status(cvrp) == MOI.TIME_LIMIT && has_values(cvrp)
     relatorio(cvrp, obj, rota, m, n)
 
     # gráfico das rotas
-    pltour(coordx, coordy, rota, animated = 1)
+    pltour(coordx, coordy, rota, animated = 2)
 else
     println("Solução não encontrada !")
 end
