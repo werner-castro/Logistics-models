@@ -4,7 +4,7 @@
 # 1 função para calculo da matriz de distâncias
 # 2 função para a geração da rota
 
-using LinearAlgebra, Plots, PlotlyJS, DataStructures, PlotThemes; theme(:juno)
+using Plots, DataStructures, PlotThemes; theme(:juno)
 
 # função usando array comprehension para o cálculo da matriz de distâncias
 function distances(α::Vector{Float64}, β::Vector{Float64})
