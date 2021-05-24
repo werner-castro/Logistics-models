@@ -151,7 +151,7 @@ if termination_status(plf) == MOI.OPTIMAL
    b = sortslices(b, dims = 1)
    V = collect(1:J)
 
-   Plots.scatter(αc, βc, color = "black", legend = false, size = (700, 550))
+   Plots.scatter(αc, βc, color = "black", legend = false, size = (800, 600))
    annotate!(αc[1:end] .+ 2, βc[1:end] .+ 1, V[1:end], font(7, :white)) # numeração dos clientes
 
    # plotando todas as facilidades
