@@ -24,7 +24,7 @@
 # q(j)   = demanda do cliente j
 # Q(i)   = capacidade da facilidade i
 # Variáveis:
-# x(i,j) = se a facilidade i rebece o cliente j
+# x(i,j) = se a facilidade i recebe o cliente j
 # y(i) = 1 se a facilidade i é aberta e 0 caso contrário
 # r = distância máxima de cliente quando designado a uma facilidade
 #
@@ -42,11 +42,11 @@
 # x(i,j) <= y(i)                          ∀ i = 1.....I, j = 1.....J. Os clientes são irão para as facilidades abertas
 #
 #  I
-#  ∑  y(i) = p                            ∀ i = 1.....I. O número de facilidades tem que ser menor o igual a quantidade permitida
+#  ∑  y(i) = p                            ∀ i = 1.....I. O número de facilidades tem que ser menor ou igual a quantidade permitida
 # i=1
 #
 # |     I
-# |r >= ∑ d(i,j) * x(i,j)                 ∀ j = 1......J. Miniza a distância máxima do cliente a facilidade
+# |r >= ∑ d(i,j) * x(i,j)                 ∀ j = 1......J. Minimiza a distância máxima do cliente a facilidade
 # |    i=1
 #
 #  J
