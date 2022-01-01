@@ -1,4 +1,4 @@
-# Logistics-models
+# Logística e distribuição: modelos e heurísticas
 Modelos matemáticos para problemas de logística e distribuição.
 
 ## Modelos de roteirização
